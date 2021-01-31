@@ -1,0 +1,28 @@
+<section>
+    <div class="div"> 
+    <header>
+       <a routerLink="/page1" routerLinkActive="active">
+       <img src="assets/reload.png" class="icon1" />
+     </a>
+       <a routerLink="/ajouter" routerLinkActive="active">
+         <img src="assets/plus.png" class="icon2" />
+        </a>
+      
+     </header>
+    </div>
+    <table cellpadding="8" cellspacing="8" width="200px">
+      <td class="titre">Liste des formateurs</td>
+      <tr *ngFor=" let P of personne" >
+      
+        <td><label>{{P.name}} {{P.last_name}}. Son email:{{P.email}}. Résidant à:{{P.adress}} </label>
+           <a routerLink="modif-formateur" routerLinkActive="active"><img src="assets/ecrire.png" width="40px" height="40px" class="right"></a>
+           <a class="delete" (click)="onDelete()" > <img src="assets/fermer.png" width="40px" height="40px" class="right2"></a>                      
+            
+        </td>
+      </tr>
+    </table>
+    <section>
+      <router-outlet></router-outlet>
+    </section>
+    
+</section>

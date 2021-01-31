@@ -1,0 +1,53 @@
+<html>
+<head>
+    <style>
+        figure {
+            display: inline-block;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <figure class="sessions">
+      <img src="assets/sessions.png" alt="The Pulpit Rock" width="180" height="150">
+      <label>{{items.length}} Sessions</label>
+    </figure>
+    <figure class="participant">
+      <img src="assets/participant.png" alt="The Pulpit Rock" width="180" height="150">
+      <label>5Sessions</label>
+    </figure>
+    <figure class="formateur">
+      <img src="assets/formateur.png" alt="The Pulpit Rock" width="180" height="150">
+      <label>5Sessions</label>
+    </figure>
+   <br>
+   <br>
+   <br>
+   
+  
+  <table class="big">
+     <tr>
+       <td>
+   <table class="names" border="1" cellpadding="5" cellspacing="8" width="300px">
+    
+      <tr *ngFor="let ses of tracklist">
+        <td >{{ses}}</td>
+        
+      </tr>
+      
+   </table> 
+  </td>
+  <td>
+   <table class="Nombre" border="1" cellpadding="5" cellspacing="8" width="300px">
+    <tr><td>Nombre de track</td></tr>
+    <tr *ngFor="let se of S">
+      <td >{{se}}</td>
+    </tr>
+    
+   </table> </td>
+</tr> 
+</table>
+</body>

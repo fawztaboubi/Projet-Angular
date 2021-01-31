@@ -1,0 +1,71 @@
+header .icon {
+    width: 64px;
+    height: 64px;
+    margin: 15px;
+    margin-left:auto; 
+    margin-right:auto;
+    }
+ .icon{
+    
+    
+    margin-left:90%;
+
+ }
+ .icon1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+ }
+ .icon2{
+   widows: 50px;
+   height:50px;
+   position: relative;
+   left: 50px;
+    top: 40px;
+ }
+ table {
+    width: 90%;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: rgb(238, 232, 225);
+    box-sizing: content-box;
+    size: 0vmax;
+    position: relative;
+    top: 80px;
+  }
+
+
+   td.titre {
+    
+    text-align: center;
+    font-weight: bold;
+    background-color: cadetblue;
+    font-size: large;
+  }
+
+  .right{
+    
+    position: absolute;
+    left: 850px;
+    padding-bottom: 40px;
+  }
+
+  .right2{
+    
+    position: absolute;
+    left: 900px;
+    
+  }
+
+  label{
+    font-size: medium;
+  }
+
+ 
+
+  
+
+ 
+ 

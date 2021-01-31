@@ -1,0 +1,28 @@
+<table class="table-formateur-element" cellpadding="8" cellspacing="8">
+    <tr >
+
+      <td> 
+        {{ participant.lastname }}, {{ participant.name }} , {{ participant.adress }} ,
+        {{ participant.societe }},
+        {{ participant.poste }},
+        {{ participant.email }} 
+      
+      
+        <a
+          [routerLink]="['../participant/edit', participant.id]"
+          routerLinkActive="active"
+          >
+          <img src="assets/ecrire.png" alt="modifier un participant" width="40px" height="40px" class="ecrie"  />
+          
+        </a>
+      
+      
+     
+        <a (click)="onDelete()" >
+          <img src="assets/fermer.png" alt="delete un particpant" width="40px" height="40px" class="fermer">
+        </a>
+      
+      </td>
+
+    </tr>
+  </table>

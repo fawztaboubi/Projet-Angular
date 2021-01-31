@@ -1,0 +1,58 @@
+.sessions{
+    background-color:rgb(243, 156, 75);
+}
+
+.participant{
+    background-color:rgb(54, 126, 92);
+}
+
+.formateur{
+    background-color:rgb(104, 67, 134);
+}
+
+label{
+    color: white;
+    position: relative;
+    bottom:30px;
+    font-size: large;
+}
+
+
+
+.Nombre{
+    position:relative;
+    background-color:rgb(238, 232, 225);
+    box-sizing: content-box;
+    size: 0vmax;
+   
+   
+}
+
+.names{
+    position: relative;
+    background-color:rgb(238, 232, 225);
+    box-sizing: content-box;
+    size: 0vmax;
+   
+    
+}
+
+.big{
+    position: relative;
+    left:20%;
+}
+
+.legend{
+    position: absolute;
+    left: 30px;
+    color: white;
+    
+    
+}
+
+.titre{
+    
+    color: rgb(4, 22, 82);
+    font-size: large;
+    font: bold;
+}
